@@ -11,7 +11,8 @@ const getWeather = (lat, long, callback) => {
             callback(undefined, {
                 description: body.current.weather_descriptions[0],
                 currentTemp: body.current.temperature,
-                feelsLikeTemp: body.current.feelslike
+                feelsLikeTemp: body.current.feelslike,
+                windSpeed: body.current.wind_speed
             })
         }
     })

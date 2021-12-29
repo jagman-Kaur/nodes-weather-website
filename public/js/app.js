@@ -21,7 +21,7 @@
                 }
                 else {
                     message1.textContent = data.address
-                    message2.textContent = "It is " + data.description + ". It is " + data.currentTemp + " degrees out. It feels like " + data.feelsLikeTemp + " degrees out."
+                    message2.textContent = "It is " + data.description + ". It is " + data.currentTemp + " degrees out. It feels like " + data.feelsLikeTemp + " degrees out. Wind speed is " + data.windSpeed
                 }
                     
             })
